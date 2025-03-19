@@ -20,7 +20,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import java.util.Arrays;
 import java.util.List;
 
-
+@ExtendWith(MockitoExtension.class)
 public class TesteControllerTests {
     @InjectMocks
     private TesteController testeController;
