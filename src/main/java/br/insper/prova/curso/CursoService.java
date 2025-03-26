@@ -43,7 +43,7 @@ public class CursoService {
     }
 
     private Usuario buscarUsuario(String email) {
-        String url = "http://18.231.172.109:8080/api/usuario/" + email;
+        String url = "http://56.124.127.89:8080/api/usuario/" + email;
         try {
             return restTemplate.getForObject(url, Usuario.class);
         } catch (Exception e) {
